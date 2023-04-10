@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="age_calculator.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet"> 
+ <title>Age calculator app</title>
+</head>
+<body>
+ <div class="page" id="page"> 
+  <div class="top">
+ <span id="day-input">
+  Day
+  <input type="text" name="day" id="day" placeholder="DD" maxlength="2" minlength="1">
+  <p class="day-error">must be a valid day</p>
+ </span>
+
+  <span id="month-input">
+   Month
+  <input type="text" name="month" id="month"
+  placeholder="MM" maxlength="2" minlength="1">
+  <p class="month-error">must be a valid month</p>
+  </span>
+
+  <span id="year-input">
+   Year
+  <input type="text" name="year" id="year" placeholder="YYYY" maxlength="4" minlength="4">
+  <p class="year-error">year must be in the past</p>
+  </span>
+</div>
+ <div id="btn">
+  <button type="submit" class="btn"><i class="fa fa-arrow-circle-down fa-spin" aria-hidden="true"></i></button>
+  
+  </div>
+<div class="down">
+  <span class="year-output">
+   -- years
+  </span>
+
+  <span class="month-output">
+   -- months
+  </span>
+  <span class="day-output">
+   -- days
+  </span>
+  </div>
+ 
+  </div>
+  <script src="age_calculator.js"></script>
+</body>
+</html>
