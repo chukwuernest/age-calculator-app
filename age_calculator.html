@@ -30,7 +30,7 @@
   <span id="year-input">
    Year
   <input type="text" name="year" id="year" placeholder="YYYY" maxlength="4" minlength="4">
-  <p class="year-error">must be in the past</p>
+  <p class="year-error" id="year-error">must be in the past</p>
   </span>
 </div>
  <div id="btn">
@@ -38,15 +38,15 @@
   <p class="line"></p>
   </div>
 <div class="down">
-  <span class="year-output">
-    -- <p>years</p>
+  <span class="year-output" id="year_display">
+    -- <p id="note">years</p>
    
   </span>
 
-  <span class="month-output">
+  <span class="month-output" id="month_display">
    -- <p>months</p>
   </span>
-  <span class="day-output">
+  <span class="day-output" id="day_display">
    -- <p>days</p>
   </span>
   </div>
