@@ -80,17 +80,17 @@ document.getElementById('day_display').innerHTML=`${gday} Days`;
 if (date.getDate()>day) {
   document.getElementById('day_display').innerHTML=`${lday} Days`;
 }
-if (day <= 0 || day>= 31) {
+if (day <= 0 || day>=32) {
   day_error.style.visibility = 'visible';
   document.getElementById('day_display').innerHTML=`--Days`;
 }
-  if (lday== 1 || gday==1) {
+  if (lday== 1) {
      document.getElementById('day_display').innerHTML=`${lday}Day`
   }
   if (gday==1) {
      document.getElementById('day_display').innerHTML=`${gday}Day`
   }
- else(day> 0 && day>=31)
+ else(day> 0 && day<=31)
  {
   day_error.style.visibility = 'hidden';
   }  
