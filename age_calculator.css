@@ -168,7 +168,6 @@ body{
   display: grid;
    justify-content: center;
   text-align: center;
-  
 }
 #day-input input{
  width: 11rem;
@@ -200,12 +199,10 @@ border-width: 0.1px;
 .day-error{
   display: block;
  font-size: 0.9em;
- 
 }
 .month-error{
    display: block;
  font-size: 0.9em;
-
 }
 .year-error{
   display: block;
