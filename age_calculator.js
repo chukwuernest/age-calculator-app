@@ -95,7 +95,6 @@ if (day <= 0 || day>=32) {
   day_error.style.visibility = 'hidden';
   }  
 }
-  
 //end.
 
 
